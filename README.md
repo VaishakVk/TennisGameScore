@@ -6,6 +6,7 @@ This is a simple program to track the scoring during a tennis game.
 ## Assumptions
 - Tie breakers are not considered
 - Serve details are not tracked using the program.
+- The game ends once a player wins two sets. The match would not continue until the completion of all 3 sets.
 
 ## Rules
 - A game is won by the first player to have won at least four points in total and at least two points more than the opponent.
@@ -21,7 +22,7 @@ There are two Python files included in the repository
 - testTennisScore.py
 
 ### TennisScore.py
-  This is the implementation version of Tennis Game scoring. Start the game by providing the player's names. Begin a game by hitting ENTER. Once the game starts, input the winner of the point by pressing 1 for Player1 and 2 for Player2. For each point, the details are updated and the game winner is declared. Once a set is complete, the game moves on to the next set until the match is complete. The time taken to complete the match is displayed at the end of the program. 
+  This is the implementation version of Tennis Game scoring. Start the game by providing the player's names. Begin a game by hitting ENTER. Once the game starts, input the winner of each point by pressing 1 for Player1 or 2 for Player2. For each point, the details are updated and the game winner is declared. Once a set is complete, the game moves on to the next set until there is a player having won 2 sets. The time taken to complete the match is displayed at the end of the program. 
     
 ### testTennisScore.py
   This is test version of Tennis Game scoring. The player names are hardcoded and the points are selected in random by the program. This is basically to get a random result from the program.
