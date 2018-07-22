@@ -30,5 +30,7 @@ There are two Python files included in the repository
 Game stats would be displayed at the start of each game. Game stats include set number and the game number. Match stats include winner of the set, game and match. Match scores would be displayed at the end of each game, set and match. Number of games won by each player in every set is displayed here. 
 
 To run the program, open any of the files in command prompt by running the command
+
       `python filename.py`
+
 Once the program starts, the first step would be to enter the names of player1 and player2. When **Press Enter to start the Game** prompt is displayed, hit on **ENTER**. Enter the winner of each point as per the hints mentioned in the program and proceed. Stats would be displayed at the end of each milestone. The program would end at the end of the match and the winner would be displayed.
