@@ -21,9 +21,10 @@ There are two Python files
 - testTennisScore.py
 
 ### TennisScore.py
-  This is the implementation version of Tennis Game scoring. Start the game by providing the player's names. Begin a game by hitting ENTER. Once the game starts, input the winner of the point. For each point, the details are updated and the game winner is declared. 
+  This is the implementation version of Tennis Game scoring. Start the game by providing the player's names. Begin a game by hitting ENTER. Once the game starts, input the winner of the point by pressing 1 for Player1 and 2 for Player2. For each point, the details are updated and the game winner is declared. Once the set is complete
     
 ### testTennisScore.py
   This is test version of Tennis Game scoring. The player names are hardcoded and the points are selected in random by the program. This is basically to get a random result from the program.
     
-Game stats would be displayed at the start of each game. Game scores would be displayed at the end of each game, set and match.
+Game stats would be displayed at the start of each game. Match scores would be displayed at the end of each game, set and match. Number of games won by each player in every set is displayed here. 
+Game stats include set number and the game number. Match stats include winner of the set, game and match.
