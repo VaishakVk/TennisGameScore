@@ -16,7 +16,7 @@ This is a simple program to track the scoring during a tennis game.
 - A Set is won by the first player to have won at least 6 games in total and at least two games more than the opponent.
 - A Match is won by player to win maximum of three sets (Best of three).
 
-## Steps to run
+## Files Description
 There are two Python files included in the repository 
 - TennisScore.py
 - testTennisScore.py
@@ -26,11 +26,12 @@ There are two Python files included in the repository
     
 ### testTennisScore.py
   This is test version of Tennis Game scoring. The player names are hardcoded and the points are selected in random by the program. This is basically to get a random result from the program.
-    
-Game stats would be displayed at the start of each game. Game stats include set number and the game number. Match stats include winner of the set, game and match. Match scores would be displayed at the end of each game, set and match. Number of games won by each player in every set is displayed here. 
 
+## Running the program
 To run the program, open any of the files in command prompt by running the command
 
       python filename.py
 
 Once the program starts, the first step would be to enter the names of player1 and player2. When **Press Enter to start the Game** prompt is displayed, hit on **ENTER**. Enter the winner of each point as per the hints mentioned in the program and proceed. Stats would be displayed at the end of each milestone. The program would end at the end of the match and the winner would be displayed.
+
+Game stats would be displayed at the start of each game. Game stats include set number and the game number. Match stats include winner of the set, game and match. Match scores would be displayed at the end of each game, set and match. Number of games won by each player in every set is displayed here. 
