@@ -31,6 +31,6 @@ Game stats would be displayed at the start of each game. Game stats include set 
 
 To run the program, open any of the files in command prompt by running the command
 
-      `python filename.py`
+      python filename.py
 
 Once the program starts, the first step would be to enter the names of player1 and player2. When **Press Enter to start the Game** prompt is displayed, hit on **ENTER**. Enter the winner of each point as per the hints mentioned in the program and proceed. Stats would be displayed at the end of each milestone. The program would end at the end of the match and the winner would be displayed.
